@@ -10,6 +10,10 @@ $ pip install bagga
 $ bagga some_command
 ```
 
+<aside class="warning">
+Make sure pip is new (19.1.1 is ok, 9.0.1 is not ok) to make `console_scripts` entrypoint working.
+</aside>
+
 Example of dct.yaml:
 
 ```yaml
